@@ -14,14 +14,19 @@
       --section-alt: #f1f3f4;
     }
 
-    body.dark-mode {
-      --bg-color: #121212;
-      --text-color: #eee;
-      --primary: #4dabf7;
-      --card-bg: #1e1e1e;
-      --card-shadow: rgba(255, 255, 255, 0.05);
-      --section-alt: #1a1a1a;
-    }
+   body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #eee;
+  --primary: #4dabf7;
+  --card-bg: #1e1e1e;
+  --card-shadow: rgba(255, 255, 255, 0.05);
+  --section-alt: #1a1a1a;
+}
+
+body.dark-mode header {
+  background: #001f3f; /* Dark blue */
+}
+
 
     body {
       font-family: Arial, sans-serif;
@@ -162,9 +167,11 @@
   <button class="toggle-btn" onclick="toggleDarkMode()">🌙 Dark</button>
 
   <header>
-    <h1>Ruben Reji</h1>
-    <p>Final-year BCA Student | AI & ML Enthusiast | Web Developer</p>
-  </header>
+  <img src="profile.jpg" alt="Ruben Reji" style="width:150px; height:150px; border-radius:50%; object-fit:cover; box-shadow:0 4px 8px rgba(0,0,0,0.2); margin-bottom:15px;">
+  <h1>Ruben Reji</h1>
+  <p>Final-year BCA Student | AI & ML Enthusiast | Web Developer</p>
+</header>
+
 
   <nav>
     <a href="#about">About</a>
@@ -301,7 +308,7 @@ Let’s connect and collaborate!</p>
   <section id="contact" class="contact">
     <h2>Contact</h2>
     <p>Bengaluru, Karnataka</p>
-    <p>📞 7025131643 | ✉️ <a href="mailto:rejiruben148@gmail.com">rejiruben148@gmail.com</a></p>
+    <p>📞 +91 7025131643 | ✉️ <a href="mailto:rejiruben148@gmail.com">rejiruben148@gmail.com</a></p>
     <p>🔗 <a href="https://www.linkedin.com/in/ruben-reji-71264728a" target="_blank">LinkedIn Profile</a></p>
   </section>
 
